@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-theme (0.1)
+    basic-jekyll-theme (0.1)
       jekyll (~> 3.9)
 
 GEM
@@ -74,12 +74,12 @@ PLATFORMS
   arm64-darwin-22
 
 DEPENDENCIES
+  basic-jekyll-theme!
   bundler
   jekyll-feed
   jekyll-include-cache
   jekyll-paginate
   jekyll-sitemap
-  jekyll-theme!
   kramdown-parser-gfm
   rake (~> 12.0)
   webrick (~> 1.8)
